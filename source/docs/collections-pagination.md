@@ -21,6 +21,8 @@ pagination:
 ...
 ```
 
+If you don't provide a `perPage` value, then the default will be 10.
+
 Once the `pagination` has been defined in the header, the template will have access to a special `$pagination` variable, which has several attributes:
 
 - `$pagination->items` contains an array of collection items for the current page
